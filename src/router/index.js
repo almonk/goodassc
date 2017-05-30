@@ -17,11 +17,6 @@ export default new Router({
       path: '/submit',
       name: 'Submit',
       component: Submit
-    },
-    {
-      name: 'Place',
-      path: '/p/:id',
-      component: Place
-    },
+    }
   ]
 })
